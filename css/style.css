@@ -121,12 +121,11 @@ body {
 }
 
 footer {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
