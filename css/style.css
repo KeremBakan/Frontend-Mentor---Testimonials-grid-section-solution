@@ -16,7 +16,6 @@ body {
   background: var(--light-grayish-blue);
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 30px;
   font-size: 13px;
 }
 
@@ -121,11 +120,14 @@ body {
 }
 
 footer {
-  position: fixed;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+  padding: 10px;
+  padding-top: 30px;
 }
 
 @media screen and (max-width: 800px) {
